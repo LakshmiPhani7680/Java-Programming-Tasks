@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class ScannerForInt
+{
+public static void main(String[] lakss) 
+{
+Scanner scan=new Scanner (System.in);
+int r=scan.nextInt ();
+System.out.println("The given Radius 'r' is :" + r);
+double pi=3.1415926;
+double p=(2*pi*r);
+System.out.println("The Perameter of a circle is : "+ p);
+System.out.println("The Area of the circle is :"+ pi*r*r);
