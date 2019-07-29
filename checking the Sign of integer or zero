@@ -1,0 +1,23 @@
+//WRITE A JAVA PROGRAM THAT READS AN INTEGER AND CHECK WHETHER IT IS NEGATIVE, ZERO OR POSITIVE
+import java.util.Scanner;
+public class PosOrNegorZero
+{
+	public static void main(String[] laks) 
+	{
+	 Scanner scan=new Scanner (System.in);
+	 int integer=scan.nextInt();
+	 if(integer<0)
+	 {
+	     System.out.println("The Given integer Is Negative");
+	 }
+	 else
+	 if(integer>0)
+	 {
+	     System.out.println("The Given integer is Positive");
+	 }
+	 else
+	 {
+	     System.out.println("The Given integer is Zero");
+	 }
+	}
+}
