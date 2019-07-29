@@ -1,0 +1,21 @@
+//WRITE A JAVA PROGRAM AND COMPUTE THE SUM OF THE DIGITS OF AN INTEGER?
+import java.util.Scanner;
+public class DigitsAdd
+{
+  public static void main(String[]Laks)
+    {
+        Scanner scan=new Scanner(System.in);
+        int int1= scan.nextInt();
+        System.out.println("Your Integer is : " + int1 );
+        int sum=0;
+        
+       for(int i=0;i<int1;i++)
+        {
+            int num1=int1/10;
+            int num2=int1%10;
+            sum=sum+num2;
+            int1=num1;
+       }
+        System.out.println("The sum of digits of given Integer is : " + sum);
+    }
+}
