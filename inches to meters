@@ -1,0 +1,15 @@
+//WRITE A JAVA PROGRAM THAT READS A NUMBER IN INCHES, CONVERTS IT TO METERS
+import java.util.Scanner;
+public class InchToMeter
+{
+    public static void main(String[]laks)
+    {
+        
+        Scanner scan= new Scanner(System.in);
+        double Inch=scan.nextDouble();
+        System.out.println("Note:The value of One inch in meters is : 0.0254");
+        double inch=0.0254 ;
+        System.out.println("The given value in inches is : " + Inch);
+System.out.println("The value of given inches in meters is : " + (Inch*inch)+"m");
+    }
+}
