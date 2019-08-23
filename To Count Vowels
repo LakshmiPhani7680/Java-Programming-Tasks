@@ -1,0 +1,25 @@
+//WRITE A JAVA METHOD TO COUNT ALL VOWELS IN A STRING
+import java.util.Scanner;
+public class Program
+{
+	public static void main(String[] laks)
+	{
+		Scanner scan=new Scanner(System.in);
+		String Name =scan.nextLine();
+    	System.out.println(countVowels(Name));
+	}
+    public static int countVowels(String Name)
+    {
+      int count=0;	 
+      for (int i=0;i<Name.length();i++)
+        {
+          if ((Name.charAt(i)=='a')||(Name.charAt(i)=='e')||(Name.charAt(i)=='i')||
+(Name.charAt(i)=='o')||(Name.charAt(i)=='u')||(Name.charAt(i)=='A')||(Name.charAt(i)=='E')||(Name.charAt(i)=='I')||(Name.charAt(i)=='O')||(Name.charAt(i)=='U'))
+            {
+	            count++;
+	        }
+	       
+	    }
+	    return count;
+   }
+}
